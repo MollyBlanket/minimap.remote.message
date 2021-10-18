@@ -48,13 +48,15 @@
 	}[window.location.host];
 
 	if(pathToScript !== void 0){
-		fetch(pathToScript)
-		.then(res => res.text())
-		.then(code => {
-			const e = document.createElement('script');
-			e.innerHTML = code;
-			document.body.appendChild(e);
+		document.addEventListener('DOMContentLoaded', function() {
+			fetch(pathToScript)
+			.then(res => res.text())
+			.then(code => {
+				const e = document.createElement('script');
+				e.innerHTML = code;
+				document.body.appendChild(e);
 
-		});
+			});
+		}, false);
 	}
 };
