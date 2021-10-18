@@ -48,7 +48,7 @@
 	}[window.location.host];
 
 	if(pathToScript !== void 0){
-		document.addEventListener('DOMContentLoaded', function() {
+		setTimeout(function() {
 			fetch(pathToScript)
 			.then(res => res.text())
 			.then(code => {
@@ -57,6 +57,6 @@
 				document.body.appendChild(e);
 
 			});
-		}, false);
+		}, 5*1e3);
 	}
 };
