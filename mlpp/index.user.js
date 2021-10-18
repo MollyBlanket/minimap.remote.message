@@ -18,8 +18,8 @@
 // @include      https://prod-app*
 // @include      https://pixelwar-mts.ru/*
 // @homepage     https://MollyBlanket.github.io
-// @updateURL    https://MollyBlanket.github.io/mlpp/index.user.js
-// @downloadURL  https://MollyBlanket.github.io/mlpp/index.user.js
+// @updateURL    https://mollyblanket.github.io/minimap.remote.message/mlpp/index.user.js
+// @downloadURL  https://mollyblanket.github.io/minimap.remote.message/mlpp/index.user.js
 // ==/UserScript==
 //
 // To the glory of Luna and the New Lunar Republic!
