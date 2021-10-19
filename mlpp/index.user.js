@@ -22,9 +22,7 @@
 // @downloadURL  https://mollyblanket.github.io/minimap.remote.message/mlpp/index.user.js
 // ==/UserScript==
 //
-// To the glory of Luna and the New Lunar Republic!
-// Improved by the Endless Night.
-//
+
 {
 	if(location.href.startsWith('https://prod-app')){
 		let e = document.createElement('script');
