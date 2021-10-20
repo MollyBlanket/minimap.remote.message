@@ -47,14 +47,9 @@
 
 	if(pathToScript !== void 0){
 		setTimeout(function() {
-			fetch(pathToScript)
-			.then(res => res.text())
-			.then(code => {
-				const e = document.createElement('script');
-				e.innerHTML = code;
-				document.body.appendChild(e);
-
-			});
+			let e = document.createElement(`script`);
+            		e.src = pathToScript;
+            		document.body.appendChild(e);
 		}, 5*1e3);
 	}
 };
