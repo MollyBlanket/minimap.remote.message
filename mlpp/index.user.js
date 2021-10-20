@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MLP Pixel Minimap (S)
 // @namespace    http://tampermonkey.net/
-// @version      1.5
+// @version      1.6
 // @description  MLP Pixel Minimap
 // @author       Endless Night & Stas Netreba (and ConsoleBey)
 // @include      *://pixelzone.io/*
